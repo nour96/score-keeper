@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="scoreKeeper.css">
+</head>
+
+<body>
+
+    <div class="scoreBoard">
+        <div id="pingImg">
+            <img src="ping-pong-sport.jpg">
+            <h3>Score Keeper</h3>
+            <h2>0 to 0</h2>
+            <p>Use the buttons below to keep scores!</p>
+            <p>
+                <b>Playing to:</b>
+                <select name="score" id="selectScore">
+                    <option value="null">Please Choose The Winning Score</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+
+            <span id="control">
+                <button id="p1">+1 Player One</button>
+                <button id="p2">+1 Player Two</button>
+                <button id="reset">Reset</button>
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <script src="scoreKeeper.js"></script>
+</body>
+
+</html>
